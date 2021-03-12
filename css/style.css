@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+	font-family: "Helvetica Neue";
+	
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+header{
+	background-color:#f8f9fa;
+}
+
+.carousel-caption{
+	top:50%;
+	left: 50%;
+	bottom: inherit;
+	transform: translate(-50%,-50%);
+	width: 60%;
+	text-align: left;
+}
+
+
+.carousel-item{
+	height: 100vh;
+}
+
+
+.carousel .carousel-item {
+  height: 400px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+ 
+
+#hero-slides h2{
+	
+	text-align:center;
+	font-size: 60px;
+	text-shadow: 3px 3px 3px #000;
+}
+
+
+h1, h2, h3{
+	font-weight: bold;
+	text-align: left;
+}
+
+#hero h1{
+	padding-top: 200px;
+}
+
+#bienvenido h4{
+	border-bottom-style: groove;
+	font-family: "Helvetica Neue";
+}
+#bienvenido h1{
+	font-family: "Helvetica Neue";
+}
+
+#bienvenido h3{
+		color:#076D5C;
+}
+
+p{
+   text-align: left; 
+}
+
+ #conoce .btn-light:hover{
+	background-color:transparent;
+	color: #076D5C;
+	border-color: #076D5C;
+}
+
+#conoce h5{
+	font-size: 23px;
+
+}
+
+#conoce h3{
+
+	text-align: center;
+	margin-top: 20px;
+	background-color: #076D5C;
+	color:#FFFFFF;
+}
+
+#conoce h6{
+	font-size: 18px;
+	text-align: center;
+	
+}
+
+
+footer {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #0A655C;
+	padding: 10px 10px 10px 10px;
+	
+	}
+
+#acerca{
+	background-image:url("../img/Foto Acerca de.png");
+	background-position: top center;
+	background-size: cover;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	
+}
+
+#acerca h1{
+	color:#FFD90A;
+	text-shadow: 2px 2px 2px #0A655C;
+}
+
+#acerca .btn-light{
+	background-color:#F1F1F1;
+	boder: 2px solid #939393;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color:#0A655C;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+
+/*capas en HTML-CSS*/
+
+.Honduras{
+	
+	position:relative;
+
+
+}
+
+.overlay{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.30);
+}
+
+.Honduras-texto{
+	position:absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	top:0;
+	text-align: center;
+	z-index: 2;
+	color:#fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+.Honduras:hover .Honduras-texto{
+	opacity: 1;
+	
+}
+
+
+.Honduras-texto h4{
+	
+	color:#fff;
+}
+
+
+
+
+#Honduras h2{
+	
+	color: #FFD90A;
+	margin-top: 5%;
+	border-top:groove;
+
+}
+
+.Honduras img{
+	width: 100%;
+}
+
+
+
+
+
+/*capas en HTML-CSS*/
+
+.Corales{
+	
+	position:relative;
+
+
+}
+
+.overlay{
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.30);
+}
+
+.Corales-texto{
+	position:absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	top:0;
+	text-align: center;
+	z-index: 2;
+	color:#fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	
+}
+
+.Corales:hover .Corales-texto{
+	opacity: 1;
+	
+}
+
+
+.Corales-texto h4{
+	
+	color:#fff;
+}
+
+.Corales img{
+	width: 100%;
+}
+
+
+#pagina2{
+	background-color: #FFD90A;
+	color:#000000;
+}
+
+#roatan {
+	margin-bottom: 20px;
+}
+
+#roatan p{
+	text-align: justify;
+
+}
+
+#roatan h1{
+	background-color: #FFD90A;
+	text-align: center;
+    color:#FFFFFF;
+}
+
+#ruinas{
+	margin-bottom: 20px;
+}
+#ruinas h1{
+	background-color: #ED00B9;
+	text-align: center;
+	color:#FFFFFF;
+
+}
+
+#ruinas p{
+	text-align: justify;
+
+}
+
+
+#lago{
+	margin-bottom: 20px;
+}
+#lago h1{
+	background-color: #076D5C;
+	text-align: center;
+	color:#FFFFFF;
+	margin-top:  0.5%;
+	
+}
+
+#lago p{
+	text-align: justify;
+}
+
+
+#ceiba{
+	margin-bottom: 20px;
+}
+
+#ceiba h1{
+	background-color: #FFD90A;
+	text-align: center;
+    color:#FFFFFF;
+	margin-top:  0.5%;
+}
+
+#ceiba p{
+	text-align: justify;
+}
+
+#tela{
+	margin-bottom: 20px;
+}
+
+#tela h1{
+	background-color: #ED00B9;
+	text-align: center;
+	color:#FFFFFF;
+}
+
+#tela p{
+	text-align: justify;
+}
+
+#comayagua{
+	
+	margin-bottom: 20px;
+}
+#comayagua h1{
+	background-color: #076D5C;
+	text-align: center;
+	color:#FFFFFF;
+	margin-top:  0.5%;
+}
+
+#comayagua p{
+	text-align: justify;
+}
+
+#lorenzo{
+	margin-bottom: 20px;
+}
+#lorenzo h1{
+	background-color: #FFD90A;
+	text-align: center;
+    color:#FFFFFF;
+	margin-top:  0.5%;
+}
+#lorenzo p{
+	text-align: justify;
+}
+
+#pagina3{
+	background-color: #ED00B9;
+}
+
+
+
+#ruta1-2{
+	text-align: center; 
+	
+}
+
+#ruta1-2 h6{
+	color:#ED00B9;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+#ruta3-4 h6{
+	color:#ED00B9;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+
+
+.circulo{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: #076D5C;
+	display: block;
+	margin: auto;
+	color:#FFFFFF;
+	font-size: 30px;
+	text-align: center;
+	transition: all 0.5s  ease-in-out;
+}
+
+#ruta1-2 p{
+	font-size: 18px;
+}
+
+#ruta1-2 h4{
+	
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+#ruta1-2 .ruta1-2{
+	background-color:#FAFAFA;
+	padding: 20px 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#ruta1-2 .ruta1-2:hover .circulo{
+	background-color:#ED00B9;
+	transition: all 0.5s  ease-in-out;
+}
+
+
+
+#ruta3-4{
+	text-align: center; 
+	
+}
+
+.circulo{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: #076D5C;
+	display: block;
+	margin: auto;
+	color:#FFFFFF;
+	font-size: 30px;
+	text-align: center;
+	transition: all 0.5s  ease-in-out;
+}
+
+#ruta3-4 p{
+	font-size: 18px;
+}
+
+#ruta3-4 h4{
+	
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+#ruta3-4 .ruta3-4{
+	background-color:#FAFAFA;
+	padding: 20px 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#ruta3-4 .ruta3-4:hover .circulo{
+	background-color:#ED00B9;
+	transition: all 0.5s  ease-in-out;
+}
+
+
+#coveruta{
+	background-image:url("../img/mapa.png");
+	background-position: top center;
+	background-size: cover;
+	padding-bottom: 10%;
+	padding-top: 6%;
+}
+
+#coveruta h2{
+	color:#FFFFFF;
+	text-shadow: 3px 3px 3px #ED00B9;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 80px;
+}
