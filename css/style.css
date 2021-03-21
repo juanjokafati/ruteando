@@ -2,7 +2,7 @@
 
 body{
 	font-family: "Helvetica Neue";
-	
+	text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -71,7 +71,7 @@ h1, h2, h3{
 }
 
 p{
-   text-align: left; 
+   text-align: justify; 
 }
 
  #conoce .btn-light:hover{
@@ -99,7 +99,10 @@ p{
 	
 }
 
-
+#conoce img{
+	padding-bottom: 15px;
+	padding-top: 10px;
+}
 footer {
 	color: #fff;
 	font-size: 15px;
@@ -251,6 +254,24 @@ footer {
 }
 
 
+
+
+#coverlugares{
+	background-image:url("../img/lugaress.jpeg");
+	background-position: top center;
+	background-size: cover;
+	padding-top: 15%;
+	padding-bottom: 10%;
+	
+	
+}
+
+#coverlugares h1{
+	color:#FFFFFF;
+	padding-bottom: 5%;
+	text-align: center;
+    text-shadow: 3px 3px 3px #ED00B9;
+}
 #pagina2{
 	background-color: #FFD90A;
 	color:#000000;
@@ -258,6 +279,7 @@ footer {
 
 #roatan {
 	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 #roatan p{
@@ -479,4 +501,109 @@ footer {
 	margin-bottom: 20px;
 	text-align: center;
 	font-size: 80px;
+}
+
+#contact{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.infocont{
+	color: #ED00B9;
+}
+
+.infocont{
+	font-size: 27px;
+}
+
+.nuestros{
+	font-size: 20px;
+	color: #ED00B9;
+}
+
+.list-icon i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #ddd;
+	font-size: 22px;
+	margin-right: 10px;
+}
+.list-icon li{
+	margin-bottom: 10px;
+}
+.list-icon i:hover{
+	color: #ED00B9;
+}
+
+#pagina6{
+	background-color: #ED00B9;
+}
+
+
+#cover_comida{
+	background-image:url("../img/cover_comida.jpeg");
+	background-position: top center;
+	background-size:contain;
+	padding-bottom: 10%;
+	padding-top: 10%;
+	
+}
+
+
+/*capas en HTML-CSS*/
+.comida{
+	position: relative;
+	overflow: hidden;
+}
+
+
+.comida-texto-oculto{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+	z-index: 100;
+	display: grid;
+	align-content: center;
+	transition: all 0.5s ease-in;
+	background-color: rgba(0,0,0,0.60);
+}
+
+.comida:hover .comida-texto-oculto{
+	opacity: 1;
+	transition: all 0.5s ease-in;
+}
+
+.comida.imagen img{
+	filter: grayscale(0);
+	transition: all 0.3s ease-in;
+	padding-bottom: 20px;
+}
+.comida.imagen:hover img{
+	filter: grayscale(0);
+	transform: scale(1.25);
+	transition: all 0.3s ease-in;
+}
+
+
+
+.comida-texto-oculto a{
+	color:#FFD90A;
+	text-decoration: none;
+	text-shadow: 2px 2px 2px #fff;
+	font-size: 35px;
+}
+
+
+
+#comida h1{
+	text-align: center;
+	padding-top: 20px;
 }
